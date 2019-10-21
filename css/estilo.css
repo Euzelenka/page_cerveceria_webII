@@ -1,0 +1,104 @@
+body {
+  background-image: url("../images/maderanegra.jpg");
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.margen {
+  margin: 20px;
+}
+
+.cat_prod {
+  color:black;
+  margin: 10px;
+  float: right;
+}
+
+.plus{
+  color: transparent;
+}
+.eliminarCategoria{
+  text-decoration: none;
+  color: white;
+}
+
+/*Div oculto de "venta"*/
+.ocultarabm {
+  color: black;
+  display: none;
+}
+
+
+.formulario{
+  margin: 10px;
+}
+
+.control-label {
+  color: white;
+}
+
+.imgproducto{
+  width: 100px;
+  height: 100px;
+}
+
+/*Contenido de la pagina*/
+.page {
+  //background-color: rgba(1, 0, 0, 0.9);
+  margin-top: 20px;
+}
+
+/*para que el nav no pise el contenido*/
+.alto50{
+  font-family: 'Montserrat', sans-serif;
+  height: 50px;
+}
+
+.navbar {
+  z-index: 1;
+}
+.carousel-inner{
+  height: 400px;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      height: 50%;
+      margin: auto;
+}
+
+/*Menu deslizable*/
+.deslizable {
+  background-color: black;
+}
+
+/*Menu deslizable letra*/
+.deslizable li a {
+  color: #FFF;
+}
+
+footer {
+  margin: 20px;
+  clear:both;
+  text-align: center;
+  color: white;
+}
+
+/*Nav*/
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+p {
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .carousel-inner {
+  height: 150px;
+  }
+}
